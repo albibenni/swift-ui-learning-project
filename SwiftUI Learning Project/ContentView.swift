@@ -14,8 +14,16 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+                .foregroundColor(.accentColor)
+                
+            Image(systemName: "scribble.variable")
+                .imageScale(.large)
+                .foregroundColor(.red)
+            Text("Scribble")
+                .foregroundColor(.red)
+                .bold()
         }
-        .padding()
+        .padding(20)
     }
 }
 
